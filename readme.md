@@ -1,5 +1,31 @@
 # apollo federationのNode.jsサンプル
 
+## 各サービスpackageインストール
+
+
+api_author
+```
+cd api_author
+npm install
+```
+
+api_books
+```
+cd api_books
+npm install
+```
+
+api_reviews
+```
+cd api_reviews
+npm install
+```
+
+graphql_gateway(他のサービスがすべて立ち上がっていないと起動しない)
+```
+cd graphql_gateway
+npm install
+```
 ## 各サービス起動
 
 api_author
@@ -20,7 +46,7 @@ cd api_reviews
 node index.js
 ```
 
-graphql_gateway
+graphql_gateway(他のサービスがすべて立ち上がっていないと起動しない)
 ```
 cd graphql_gateway
 node index.js

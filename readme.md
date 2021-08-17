@@ -58,3 +58,51 @@ graphql_gatewayのlistenポート(デフォルト4000)に向けてクエリを�
 手元にclientがない場合はapollo studioから確認するのが容易
 
 https://studio.apollographql.com/sandbox/explorer
+
+
+サンプルクエリ
+
+```
+query {
+  # reviewからbook, authorをとる
+  reviews {
+    id
+    book_id
+    comment
+    book {
+      id
+      title
+      author {
+        name
+      }
+    }
+  }
+  # booksからauthor, reviewをとる
+  books {
+    id
+    title
+    author_id
+    author {
+      id
+    }
+    reviews {
+      id
+      book_id
+      score
+    }
+  }
+  # authorsからbooks,reviewを撮る
+  authors {
+    id
+    name
+    books {
+      author_id
+      title
+      reviews {
+        id
+        score
+      }
+    }
+  }
+}
+```

@@ -1,5 +1,4 @@
 # apollo federationのNode.jsサンプル
-
 ## node version
 
 14.17.5
@@ -24,11 +23,12 @@ cd api_reviews
 npm install
 ```
 
-graphql_gateway(他のサービスがすべて立ち上がっていないと起動しない)
+graphql_gateway(他のサービスがすべて立ち上がっていないと起動しないので注意が必要です)
 ```
 cd graphql_gateway
 npm install
 ```
+
 ## 各サービス起動
 
 api_authors
@@ -57,9 +57,11 @@ node index.js
 
 ## graphqlを実行して確認
 
-graphql_gatewayのlistenポート(デフォルト4000)に向けてクエリを実行すれば確認できる。
+graphql_gatewayのlistenポート(デフォルト4000)に向けてクエリを実行すれば確認できます。
 
-手元にclientがない場合はapollo studioから確認するのが容易
+http://localhost:4000/
+
+手元にGraphQL clientがない場合はapollo studioから確認するのが容易です。
 
 https://studio.apollographql.com/sandbox/explorer
 

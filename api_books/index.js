@@ -13,13 +13,13 @@ const typeDefs = gql`
     books: [Book]
   }
 
-  type Book @key(fields: "id") @key(fields: "author_id"){
+  type Book @key(fields: "id") @key(fields: "author_id") {
     id: ID!
     author_id: ID!
     title: String!
   }
 
-  extend type Author @key(fields: "id"){
+  extend type Author @key(fields: "id") {
     id: ID! @external
     books: [Book]
   }

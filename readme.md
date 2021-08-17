@@ -6,9 +6,9 @@
 一応各サービス内に.node-versionを置いてあります。
 ## 各サービスpackageインストール
 
-api_author
+api_authors
 ```
-cd api_author
+cd api_authors
 npm install
 ```
 
@@ -31,9 +31,9 @@ npm install
 ```
 ## 各サービス起動
 
-api_author
+api_authors
 ```
-cd api_author
+cd api_authors
 node index.js
 ```
 

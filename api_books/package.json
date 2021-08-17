@@ -1,18 +1,7 @@
 {
-  "name": "api_node",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@apollo/federation": "^0.29.0",
     "apollo-server": "^3.1.2",
-    "graphql": "^15.5.1",
-    "loader": "^2.1.1"
+    "graphql": "^15.5.1"
   }
 }

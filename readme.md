@@ -2,7 +2,6 @@
 
 ## 各サービスpackageインストール
 
-
 api_author
 ```
 cd api_author

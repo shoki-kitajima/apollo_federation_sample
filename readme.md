@@ -97,7 +97,7 @@ query {
       score
     }
   }
-  # authorsからbooks,reviewを撮る
+  # authorsからbooks,reviewをとる
   authors {
     id
     name

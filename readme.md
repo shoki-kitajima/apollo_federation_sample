@@ -3,6 +3,9 @@
 
 14.17.5
 一応各サービス内に.node-versionを置いてあります。
+
+https://note.com/shopon/n/nba50fd2bc1e7
+
 ## 各サービスpackageインストール
 
 api_authors

@@ -1,10 +1,16 @@
 # apollo federationのNode.jsサンプル
+
+## このリポジトリについて
+
+こちらの記事のためにで作成したものです。
+
+https://note.com/shopon/n/nba50fd2bc1e7
+
+
 ## node version
 
 14.17.5
 一応各サービス内に.node-versionを置いてあります。
-
-https://note.com/shopon/n/nba50fd2bc1e7
 
 ## 各サービスpackageインストール
 
